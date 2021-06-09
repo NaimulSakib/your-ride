@@ -1,0 +1,30 @@
+/* .nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 1;
+} */
+/* .bg-transparent {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+} */
+.navbar-style{
+    z-index: 1;
+    position: relative;
+}
+.navbar-brand-style{
+    font-size: 25px !important;
+    font-weight: 600;
+}
+.nav-btn:hover{
+    background-color: transparent !important;
+    border: 1px solid rgb(148, 32, 24) !important;
+}
+.link{
+    text-decoration: none !important;
+    color: black !important;
+}
+.link Button{
+    color: white !important;
+}

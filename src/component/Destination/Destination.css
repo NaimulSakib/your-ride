@@ -1,0 +1,43 @@
+.destination-style{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.route-div{
+    background-color: #EFEFEF;
+    width: 260px;
+    padding : 35px 20px;
+    border-radius: 5px;
+    max-height: 360px;
+}
+.input {
+    border: none;
+    border-radius: 3px;
+    padding : 5px 20px;
+}
+.map{
+    max-height: 600px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom : 50px;
+}
+.btn-danger{
+    border-radius : 3px;
+}
+.pick-route{
+    background-color: #dc3545;
+    border-radius: 5px;
+    max-height: 80px;
+    padding : 10px 15px;
+    color: white;
+}
+.ride-choice div{
+    background-color: white;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+.test{
+    display: flex;
+    justify-content: space-between;
+}

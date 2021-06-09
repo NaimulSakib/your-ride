@@ -1,0 +1,21 @@
+.icon-btn{
+    position: relative;
+    border: 1px solid grey;
+    background-color: white;
+}
+.icon{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 4px;
+    transform: translateY(-50%);
+    line-height: 36px;
+    text-align: center;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.icon-btn:hover{
+    border: 1px solid black;
+}

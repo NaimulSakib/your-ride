@@ -1,0 +1,36 @@
+.card-design{
+    width: 180px;
+    height: 170px;
+    background-color: white;
+    margin : 30px;
+    text-align: center;
+    color: #2D2D2D;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 3px 4px 10px;
+}
+.card-design h3{
+    font-size: 20px;
+    padding-top: 25px;
+}
+.card-design:hover{
+    width: 180px;
+    height: 170px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid white;
+    margin : 30px;
+    text-align: center;
+    color: #2D2D2D;
+    padding: 10px;
+    border-radius: 6px;
+}
+@media (max-width: 768px) {
+        .card-design {
+            display: inline-block;
+            background-color: red;
+            margin-top: 100px;
+            width: 300px !important;
+            border: 1px solid green;
+        }
+    }
